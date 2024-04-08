@@ -146,7 +146,7 @@ body {
   font-weight: 400;
   font-family: "Impact", sans-serif;
   color: transparent; /* Make text transparent */
-  background-image: url("images/fonTim.jpeg"); /* Set background image */
+  background-image: url("fonTim.jpeg"); /* Set background image */
   background-size: cover; /* Ensure the entire image is visible */
   background-position: left 30% bottom 55%; /* Center the background image */
   -webkit-background-clip: text; /* Clip the background to the text */
