@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debatni klub FON</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="images/favicon_io copy/favicon.ico"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/0c707bfe20.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logoTitle">
+        <a href="index.html">
+          <img src="images/logo.jpeg" alt="logo" class="logoImg" />
+        </a>
+        <h1>Debatni klub</h1>
+      </div>
+
+      <nav class="navbar">
+        <a href="o-nama.html">O NAMA</a>
+        <hr class="separator" />
+        <a href="debata.html">DEBATA</a>
+        <hr class="separator" />
+        <a href="uspesi.html">USPESI</a>
+        <hr class="separator" />
+        <a href="#">KONTAKT</a>
+      </nav>
+
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="contact">
+          <h1>Kontakt</h1>
+          <hr class="break-line" />
+          <div class="container-icons">
+            <div class="contact-icons">
+              <i class="fa-solid fa-4x fa-location-dot"></i>
+              <h3>Adresa</h3>
+              <h4>Fakultet organizacionih nauka, Jove Ilića 154</h4>
+            </div>
+            <div class="contact-icons">
+              <i class="fa-solid fa-4x fa-at"></i>
+              <h3>Email</h3>
+              <h4>debatniklubfon8@gmail.com</h4>
+            </div>
+          </div>
+
+          <div class="contact-social-media">
+            <h1>Pronađite nas na društvenim mrežama</h1>
+            <hr class="break-line" />
+            <div class="container-social-media">
+              <a
+                href="https://www.facebook.com/search/top?q=debatni%20klub%20fon"
+                ><i class="fa-brands fa-4x fa-linkedin icon-m"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/search/top?q=debatni%20klub%20fon"
+                ><i class="fa-brands fa-4x fa-square-facebook icon-m"></i
+              ></a>
+              <a href="https://www.instagram.com/_dkfon_/">
+                <i class="fa-brands fa-4x fa-square-instagram icon-m"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              width: 100%;
+              height: 100vh;
+              margin: 10px auto 10px auto;
+            "
+          >
+            <h1>Kako do nas?</h1>
+            <hr class="break-line" />
+            <div
+              style="
+                text-decoration: none;
+                overflow: hidden;
+                max-width: 100%;
+                width: 500px;
+                height: 500px;
+                margin-top: 15px;
+                border-radius: 35px;
+              "
+            >
+              <div
+                id="canvas-for-googlemap"
+                style="height: 100%; width: 100%; max-width: 100%"
+              >
+                <iframe
+                  style="height: 100%; width: 100%; border: 0"
+                  frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=Fakultet+organizacionih+nauka,+Jove+Ilića,+Belgrade,+Serbia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                ></iframe>
+              </div>
+              <a
+                class="code-for-google-map"
+                href="https://www.bootstrapskins.com/themes"
+                id="auth-map-data"
+                >premium bootstrap themes</a
+              >
+              <style>
+                #canvas-for-googlemap img {
+                  max-width: none !important;
+                  background: none !important;
+                  font-size: inherit;
+                  font-weight: inherit;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="social-media">
+          <a href="https://www.facebook.com/search/top?q=debatni%20klub%20fon"
+            ><i class="fa-brands fa-3x fa-linkedin icon-sm"></i
+          ></a>
+          <a href="https://www.facebook.com/search/top?q=debatni%20klub%20fon"
+            ><i class="fa-brands fa-3x fa-square-facebook icon-sm"></i
+          ></a>
+          <a href="https://www.instagram.com/_dkfon_/">
+            <i class="fa-brands fa-3x fa-square-instagram icon-sm"></i
+          ></a>
+        </div>
+        <div class="icon-and-text">
+          <i class="fa-solid fa-house footer-icon"></i>Fakultet organizacionih
+          nauka, Jove Ilića 154
+        </div>
+        <div class="icon-and-text">
+          <i class="fa-solid fa-envelope footer-icon"></i
+          >debatniklubfon8@gmail.com
+        </div>
+        <p>Copyright 2024| All Rights Reserved| Created by DKFON</p>
+      </div>
+    </footer>
+  </body>
+</html>
